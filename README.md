@@ -102,10 +102,6 @@ vota_dolores_hidalgo/
 *Diálogo elástico anunciando la obra ganadora con efecto de confeti nativo de celebración.*  
 ![Ganador con Confeti](capturas/4_ganador_confeti.png)
 
-### 5. Suite de Pruebas Unitarias TDD en Verde
-*Ejecución exitosa de las 10 pruebas unitarias y de integración que respaldan la lógica de negocio.*  
-![Pruebas TDD](capturas/5_pruebas_tdd.png)
-
 ---
 
 ## 🚀 Cómo Ejecutar el Proyecto
