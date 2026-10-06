@@ -48,7 +48,7 @@ vota_dolores_hidalgo/
 │   └── main.dart                       # Entrada de la app con tema Indigo y Material 3
 ├── test/
 │   └── servicio_votacion_test.dart     # Suite completa de pruebas TDD (10 pruebas)
-├── capturas/                           # Carpeta designada para evidencias visuales
+├── capturas/                           # Carpeta de evidencias visuales
 └── pubspec.yaml
 ```
 
@@ -86,22 +86,25 @@ vota_dolores_hidalgo/
 
 ## 📸 Evidencias y Capturas de Pantalla
 
-> *Coloca tus capturas en la carpeta `capturas/` con los nombres indicados abajo:*
+### 1. Pantalla Inicial del Plebiscito
+*Estado inicial con todas las obras en 0% y botones listos para votar.*  
+![Pantalla Inicial](capturas/1_pantalla_inicial.png)
 
-### 1. Pruebas Unitarias y de Integración en Verde (`flutter test`)
-![Pruebas Unitarias en Verde](capturas/1_flutter_test.png)
+### 2. Emisión y Registro de Voto
+*Voto registrado exitosamente con notificación SnackBar flotante.*  
+![Voto Registrado](capturas/2_voto_registrado.png)
 
-### 2. Pantalla Principal del Plebiscito con Barras Animadas
-![Pantalla Principal de Votación](capturas/2_pantalla_votacion.png)
+### 3. Progreso de Votación y Barras Animadas
+*Resultados ponderados tras la participación de varios vecinos con cálculo dinámico de porcentajes.*  
+![Barras Animadas](capturas/3_barras_animadas.png)
 
-### 3. Rechazo de Voto Duplicado por Mismo ID
-![Rechazo Voto Duplicado](capturas/3_usuario_ya_voto.png)
-
-### 4. Diálogo de Ganador con Confeti Animado
+### 4. Revelación del Ganador con Confeti Animado
+*Diálogo elástico anunciando la obra ganadora con efecto de confeti nativo de celebración.*  
 ![Ganador con Confeti](capturas/4_ganador_confeti.png)
 
-### 5. Diálogo en Caso de Empate
-![Empate de Opciones](capturas/5_empate.png)
+### 5. Suite de Pruebas Unitarias TDD en Verde
+*Ejecución exitosa de las 10 pruebas unitarias y de integración que respaldan la lógica de negocio.*  
+![Pruebas TDD](capturas/5_pruebas_tdd.png)
 
 ---
 
@@ -117,7 +120,7 @@ flutter test
 ```bash
 flutter run
 ```
-*(Puedes seleccionar tu dispositivo físico, emulador de Android/iOS o navegador Chrome con `flutter run -d chrome`).*
+*(Puedes seleccionar tu dispositivo físico, emulador o navegador web con `flutter run -d chrome`).*
 
 ---
 
